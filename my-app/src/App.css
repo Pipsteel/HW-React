@@ -1,0 +1,24 @@
+h1, h2{
+    margin-bottom: 10px;
+
+    font-size: 1.5em;
+}
+
+.main{
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 640px;
+    width: 100%;
+}
+.AppTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.SerchFilter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin: 0 auto;
+}

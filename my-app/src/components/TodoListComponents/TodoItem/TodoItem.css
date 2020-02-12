@@ -1,0 +1,29 @@
+.TodoItem{
+    border: solid 0.5px #d4d5d2;
+    border-radius: 1px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 27px;
+
+}
+.TodoItem div button{
+    height: 22px;
+}
+
+.TodoItem.done{
+    text-decoration: line-through;
+}
+.TodoItem.important{
+    font-weight: bold;
+}
+
+
+.TodoItem button:hover{
+    background-color: brown;
+}
+.none{
+    display: none;
+}
