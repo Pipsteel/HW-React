@@ -1,0 +1,8 @@
+
+.error {
+    display: flex;
+    padding: 1rem;
+    background-color: rgba(71, 66, 66, 0.45);
+    border: 1px solid rgb(94, 94, 94);
+
+}
